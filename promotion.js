@@ -84,6 +84,6 @@ return Object.prototype.toString.call(param) === '[object Null]'
 
 }
 
-window.DOM = DOM; //finish lib;
+window.DOM = DOM; 
 
 }(window , document ))
