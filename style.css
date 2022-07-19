@@ -1,0 +1,1221 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+
+ /*PALLETE COLOR*/
+    --padding-color: rgba(46, 46, 46, 1);
+    --base-color: rgba(255, 255, 255, 1);
+    --text-color: rgba(46, 46, 46, 1);
+
+}
+
+/*=================BASE==============================*/
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-font-smoothing: antialiased;
+  
+    overflow-x: hidden ;
+    
+}
+
+
+/*=================LAYOUT==============================*/
+.container {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    
+}
+
+
+.grid {
+    display:grid;
+    gap: 2.3rem;
+}
+
+.section {
+    padding: 4.5rem 0;
+}
+
+.section .title{
+    margin-bottom: 1.6rem;
+}
+
+.section header {
+    margin-bottom: 4.4rem ;
+}
+/*=================NAVIGATION==============================*/
+ 
+nav.container {
+    position: absolute;
+    background-color: var(--base-color);
+    width: 100%;    
+    margin: 0rem;
+    height: 6.5rem;
+}
+#header img.imagem-logo {
+    width: 13rem;
+    margin-left: -2.5rem;
+}
+
+#header ul.grid {
+    font: 400 1.3rem 'Bebas Neue', cursive;
+    display: flex;
+    margin-left: 13rem;
+    margin-top: -5.9rem;
+    
+    
+}
+#header div {
+    width: 100%;
+}
+#header li.title-diferent a {
+   width: 80%;
+   height: 0;
+   
+}
+
+ img.img{
+    width: 103%;
+    margin-top: 3rem;
+    border-bottom: 6px solid #2E2E2E ;
+   
+ }
+
+ img.img-logo {
+    width: 60%;
+    margin-top: -35rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+    
+}
+
+#header li.title:hover {
+    border-bottom: 1.5px solid rgb(0,140,10);
+    margin-bottom: 5rem;
+    
+}
+
+#header li.title-diferent:hover {
+    border-bottom: 1.5px solid rgb(0,140,10);
+    margin-bottom: 5rem;
+    
+}
+/*=================ABOUT==============================*/
+#about h3 {
+    font: 400 1.3rem 'Bebas Neue', cursive;
+    color: var(--base-color);
+    text-align: center;
+    
+    margin-left: 14rem;
+    margin-top: -2rem;
+    
+    width: 30%;
+    height: 1.5rem;
+    background-color: var(--padding-color);
+}
+#about h1 {
+    font: 400 2.2rem 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+#about img.img-about {
+    width: 43.2%;
+    margin-left: 12rem;
+}
+
+
+#about p {
+    font-size: 1.1rem;
+
+    color: #2E2E2E;
+    text-align: center;
+    width: 40%;
+    margin-left: 12.8rem;
+}
+/*=================LOCAL-TIME==============================*/
+#local-time img.img-local-time {
+    margin-top: 1rem;
+    margin-left: -2.4rem;
+    width: 112.7%;
+    height: 100%;
+
+    border-bottom: 6px solid #2E2E2E;
+    
+  
+} 
+
+#local-time img.menu-local-time {
+ width: 17%;
+ margin-top: -0.5rem;
+ margin-left: 14rem;
+
+}
+
+#local-time img.promotion-local-time {
+    width: 17%;
+    margin-top: -13rem;
+    margin-left: 23rem;
+}
+
+#local-time a.icons {
+    margin-top: -14.5rem;
+}
+
+#local-time h3.description {
+    font: 400 1.3rem 'Bebas Neue', cursive;
+    width: 29%;
+    height: 1.5rem;
+    margin-top: -6.3rem;
+    margin-left: 15.5rem;
+    
+    text-align: center;
+    color: var(--base-color);
+    background-color: #2E2E2E;
+}
+
+#local-time h1.description-local-time {
+    font: 400 2.2rem 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: -5rem;
+}
+
+#local-time h2.adress {
+    font: 400 1.5rem 'Bebas Neue', cursive;
+    margin-left: 12rem;
+    margin-top: -3rem;
+    color: var(--text-color);
+}
+
+#local-time h2.time {
+    font: 400 1.5rem 'Bebas Neue', cursive;
+    margin-left: 27rem;
+    margin-top: -8.2rem;
+    color: var(--text-color);
+}
+
+#local-time p.content-text {
+    color: var(--padding-color);
+    margin-left: 11rem;
+    margin-top: -3rem;
+}
+
+#local-time p.content-text-time {
+    color: var(--padding-color);
+    margin-left: 25rem;
+    margin-top: -8.1rem;
+}
+
+#local-time a.button {
+    color: var(--base-color);
+    font-size: 1.3rem;
+    background-color: var(--text-color);
+    width: 12rem;
+    margin-left: 16rem;
+    margin-top: -3rem;
+    padding: 0.8rem 1rem;
+   
+
+    border-radius: 0.7rem;
+}
+
+#local-time p.button-context {
+    text-align: center;
+    margin-top: -2rem;
+    transition: background 0.3s;
+}
+.button-context:hover {
+    color: rgb(11, 212, 41) ;
+   
+}
+
+#local-time a.map {
+    width: 13rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 15.5rem;
+    
+    color: var(--padding-color);
+    border: 2px solid #2E2E2E;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+#local-time a.map:hover {
+    color: rgb(11, 212, 41);
+}
+
+#local-time img.img-contact {
+    width: 50rem;
+    margin-left: -4rem;
+}
+
+footer {
+    margin-top: -0.2rem;
+    text-align: center;
+    background-color: #2E2E2E;
+    color: var(--base-color);
+    height: 8rem;
+}
+
+footer p {
+    margin-bottom: 0.3rem;
+   
+}
+
+a.icon-facebook {
+    margin-left: -40rem ;
+}
+
+a.icon-instagram {
+    margin: 2rem;
+}
+
+#local-time p.rights {
+    margin-top: -6rem;
+    margin-left: -37rem;
+}
+
+#local-time p.rights-reserved {
+    margin-left: -35rem;
+}
+
+/*=================RESPONSIVIDADE==============================*/
+@media (min-width:320px) {
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+img.img-logo {
+    margin-left: 6.7rem;
+}
+
+#header ul.grid {
+    margin-left: 9rem;
+}
+/*=================ABOUT==============================*/
+
+#about h3 {
+    margin-left: 9.5rem;
+}
+
+#about img.img-about {
+    margin-left: 7.8rem;
+}
+
+#about p {
+    margin-left: 6rem;
+    width: 60%;
+}
+/*=================LOCAL-TIME==============================*/
+#local-time img.img-local-time {
+    width: 33rem;
+}
+
+#local-time img.menu-local-time {
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+#local-time img.promotion-local-time {
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+
+#local-time h3.description {
+    width: 13rem;
+    margin-left: 6.8rem;
+    margin-top: -2.8rem;
+}
+
+#local-time h1.description-local-time {
+    margin-top: -1rem;
+    margin-left: -7rem;
+    
+}
+
+#local-time h2.adress {
+    margin-top: 2rem;
+    margin-left: 4rem;;
+}
+
+#local-time p.content-text {
+    margin-top: -1rem;
+    margin-left: 4rem;
+}
+
+#local-time h2.time {
+    margin-left: 19rem;
+    margin-top: -6.7rem;
+}
+
+#local-time p.content-text-time {
+    margin-top: -5.5rem;
+    margin-left: 17rem;
+}
+
+#local-time p.button-context {
+   margin-right: -1rem;
+}
+
+#local-time a.button {
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+#local-time a.map {
+    margin-left: 7.5rem;
+   
+}
+
+#local-time img.img-contact {
+    width: 37rem;
+    margin-top: 1rem;
+}
+
+#local-time a.icon-facebook {
+    margin-left: -22rem
+}
+
+#local-time p.rights {
+    margin-left: -22.3rem;
+}
+#local-time p.rights-reserved {
+    margin-left: -20rem;
+}   
+
+}
+
+/*=================RESPONSIVIDADE-350PX==============================*/
+
+@media (min-width:350px) {
+    #header .grid {
+        display: grid;
+        gap: 2.2rem;
+    }
+
+    #local-time img.img-local-time {
+        width: 37rem;
+    }
+
+    #local-time h3.description {
+        margin-left: 8rem;
+    }
+
+
+}
+/*=================RESPONSIVIDADE-375PX==============================*/
+@media (min-width:370px) {
+    #local-time img.img-contact {
+        width: 40rem;
+    }
+
+    #local-time h3.description {
+        margin-left: 9rem;
+    }
+}
+
+@media (min-width:375px) {
+.grid {
+    display: grid;
+    gap: 1.8rem;
+}
+
+#header ul.grid {
+    margin-left: 10rem;
+}
+
+/*=================ABOUT==============================*/
+#about h3 {
+    margin-left: 11rem;
+}
+
+#about img.img-about {
+    margin-left: 9rem;
+}
+
+/*=================LOCAL-TIME==============================*/
+
+#local-time img.img-local-time {
+    width: 38rem;
+}
+
+#local-time img.promotion-local-time {
+    margin-left: 15rem;
+}
+
+#local-time img.menu-local-time {
+   margin-left: 7rem;
+}
+
+#local-time h3.description {
+    width: 10.8rem;
+    margin-top: -5rem;
+    margin-left: 10.5rem;
+}
+
+#local-time h1.description-local-time {
+    margin-top: -4rem;
+    margin-left: -3.5rem;
+}
+
+#local-time h2.time {
+    margin-top: -8.2rem;
+    margin-left: 21rem;
+}
+
+#local-time p.content-text-time {
+    margin-top: -7.6rem;
+    margin-left: 19rem;
+}
+
+#local-time h2.adress {
+    width: 30%;
+    margin-top: -1rem;
+    margin-left: 7rem;
+    
+}
+
+#local-time p.content-text {
+    width: 30%;
+    margin-top: -1.1rem;
+    margin-left: 6rem;
+}
+
+#local-time a.button {
+    margin-top: -3rem;
+    margin-left: 10rem;
+}
+
+#local-time a.map {
+       margin-top: 0.5rem;
+       margin-left: 9.5rem;
+}
+
+#local-time img.img-contact {
+    width: 39.5rem;
+}
+
+div p.rights {
+    margin: 3.9rem;
+}
+
+div p.rights-reserved {
+    margin: 4.2rem;
+    margin-top: -3.2rem;
+}
+
+#local-time a.icon-facebook {
+    margin-left: -29rem;
+}
+
+}
+
+/*=================RESPONSIVIDADE-425PX==============================*/
+
+@media (min-width:425px) {
+    #about h3 {
+        margin-left: 12.5rem;
+    }
+
+    img.img-logo {
+        margin-left: 8rem;
+    }
+
+    #about img.img-about {
+        margin-left: 10rem;
+    }
+
+    #about p {
+        text-align: center;
+        margin-left: 7rem;
+    }
+
+    #about h1 {
+        margin-left: -2rem;
+    }
+
+/*=================LOCAL-TIME==============================*/
+
+    #local-time img.img-local-time {
+        width: 50rem;
+    }
+
+    #local-time img.promotion-local-time {
+        margin-top: -3rem;
+        margin-left: 18rem;
+    }
+
+    #local-time img.menu-local-time {
+        margin-top: 2rem;
+        margin-left: 9rem;
+    }
+
+    #local-time h3.description {
+        
+        margin-left: 13rem;
+    }
+
+    #local-time h1.description-local-time {
+        margin-left: -10rem;
+    }
+    #local-time h2.time {
+        margin-left: 25rem;
+    }
+
+    #local-time p.content-text-time {
+        margin-left: 25rem;
+    }
+
+    #local-time a.button {
+        margin-left: 12rem;
+        margin-bottom: 1rem;
+    }
+
+    #local-time a.map {
+        margin-left: 11.5rem;
+    }
+
+    #local-time img.img-contact {
+        width: 52rem;
+    }
+
+    #local-time p.rights {
+        margin-left: -27rem;
+    }
+
+    #local-time p.rights-reserved {
+        margin-left: -24rem;
+    }
+
+    #local-time a.icon-facebook {
+        margin-left: -32rem;
+    }
+}
+
+/*=================RESPONSIVIDADE (600PX)==============================*/
+@media (min-width:600px) {
+
+   #header .grid {
+    display: grid;
+    gap: 3rem;
+   }
+
+    img.img-logo {
+        margin-left: 13rem;
+    }
+    #header ul.grid {
+        margin-left: 20rem;
+    }
+    
+    #about img.img-about {
+        margin-left: 15rem;
+    }
+    
+    #about h1 {
+        margin-left: 1rem;
+    }
+
+    #about h3 {
+        margin-left: 20rem;
+    }
+
+    #about p {
+        margin-left: 10rem;
+    }
+
+/*=================LOCAL-TIME==============================*/
+    #local-time img.img-local-time {
+        width: 60rem;
+    }
+
+    #local-time a.icons {
+        margin-top: -20rem;
+        margin-left: 15rem;
+    }
+
+    #local-time h3.description {
+        margin-left: 20rem;
+        width: 17rem;
+    }
+
+    #local-time h1.description-local-time {
+        margin-left: -1rem;
+    }
+
+    #local-time h2.time {
+        margin-left: 33rem;
+    }
+
+    #local-time p.content-text-time {
+        margin-left: 30rem;
+    }
+
+    #local-time h2.adress {
+        margin-left: 17rem;
+    }
+
+    #local-time p.content-text {
+        margin-left: 15rem;
+    }
+
+    #local-time a.button {
+        margin-left: 20rem;
+    }
+
+    #local-time a.map {
+        margin-left: 19.7rem;
+    }
+
+    #local-time img.img-contact {
+        width: 63rem;
+    }
+
+    #local-time p.rights {
+        margin-left: -40rem;
+    }
+
+    #local-time p.rights-reserved {
+        margin-left: -37rem ;
+    }
+
+    #local-time a.icon-facebook {
+        margin-left: -45rem;
+    }
+
+}
+
+
+@media (min-width:768px) {
+    .grid {
+        display: grid;
+        gap: 3.5rem;
+    }
+    
+    #header ul.grid {
+        margin-left: 26.5rem;
+    }
+    
+    img.img-logo {
+        margin-left: 17rem;
+    }
+    
+    
+    #about h3 {
+        width: 12rem;
+        margin-left: 30rem;
+    }
+
+    #about h1 {
+        margin-top: -1.5rem;
+        text-align: center;
+    }
+
+    #about img.img-about {
+        margin-left: 20rem;
+    }
+
+    #about p {
+        margin-left: 15rem;
+        margin-bottom: 1rem;   
+    }
+
+    #local-time .grid {
+        display: grid;
+        gap: 3rem;
+    }
+  
+    #local-time img.img-local-time {
+    width: 77rem;
+  }
+
+  #local-time img.promotion-local-time {
+    margin-left: 20rem;
+    margin-top: -30rem;
+  }
+  
+  #local-time a.icons {
+    margin-top: -23rem;
+    margin-left: 17rem;
+  }
+  
+  #local-time h3.description {
+    
+    margin-top: -8.6rem;
+    margin-left: 30rem;
+    margin-bottom: 3rem;
+  }
+
+  #local-time h1.description-local-time {
+     width: 30rem;
+    height: 8rem;
+    margin-top: -9rem;
+    margin-left: 20.5rem;
+    
+  }
+
+  #local-time h2.adress {
+    margin-top: -8rem;
+    margin-left: 25rem;
+  }
+
+  #local-time p.content-text {
+    width: 10rem;
+    margin-top: -9rem;
+    margin-left: 24rem;
+  }
+
+  #local-time h2.time {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 43rem;
+    margin-top: -14rem;
+  }
+
+  #local-time p.content-text-time {
+    width: 13rem;
+    height: 10rem;
+    margin-left: 41rem;
+    margin-top: -15rem;
+  }
+  
+  #local-time a.button {
+      margin-left: 30rem;
+  }
+  
+  #local-time a.map {
+    margin-left: 29.5rem
+  }
+
+  #local-time img.img-contact {
+    width: 79rem;
+    margin-top: -1rem;
+  }
+
+  #local-time p.rights {
+    margin-left: -62rem;
+    
+  }
+
+  #local-time p.rights-reserved {
+    margin-left: -59rem;
+  }
+
+
+  #local-time a.icon-facebook {
+    margin-left: -68rem;
+  }
+}
+/*==================RESPONSIVIDADE(1024PX)==========*/
+@media (min-width:1024px) {
+      
+    #header .grid {
+    display: grid;
+    gap: 6rem;
+   }
+   
+    #header img.imagem-logo {
+    margin-left: 1.5rem;
+   }
+   
+   #header ul.grid {
+    margin-left: 33rem;
+    font-size: 1.7rem;
+   }
+
+   #header li.title {
+    height: 1.9rem;
+ }
+ 
+    #header li.title-diferent {
+    height: 1.9rem;
+ }
+
+   img.img-logo {
+    width: 65;
+    margin-top: -55rem;
+    margin-left: 22rem;
+   }
+
+   #about h3 {
+    margin-left: 43rem;
+   }
+
+   #about img.img-about {
+    margin-left: 28rem;
+    margin-top: -3rem;
+   }
+
+   #about p {
+    margin-left: 22rem;
+    font-size: 1.3rem;
+   }
+/*============LOCAL-TIME================*/
+   #local-time img.img-local-time {
+    width: 103rem;
+   }
+
+   #local-time img.promotion-local-time {
+        margin-left: 32rem;
+        margin-top: -17rem;
+   }
+
+   #local-time img.menu-local-time {
+        margin-left: 15rem;
+        margin-top: -3rem;
+   }
+
+   #local-time a.icons {
+       margin-top: -27rem;
+      
+   }
+
+   #local-time h3.description {
+        margin-left: 42.9rem;
+        
+   }
+
+   #local-time h1.description-local-time {
+        margin-left: 33rem;
+   }
+
+   #local-time h2.adress {
+        width: 10rem;
+        margin-left: 37rem;
+        font-size: 2rem;
+        
+
+   }
+
+   #local-time h2.time {
+       margin-left: 53rem;
+       font-size: 2rem;
+       width: 7rem;
+       height: 3rem;
+       
+   }
+
+   #local-time p.content-text {
+        margin-left: 35rem;
+        font-size: 1.3rem;
+       margin-top: -7.8rem;
+    }
+   
+   #local-time p.content-text-time {
+        margin-left: 51rem;
+        font-size: 1.2rem;
+        width: 14rem;
+        margin-top: -14rem;
+   }
+
+   #local-time a.button {
+        margin-left: 42rem;
+        font-size: 1.5rem;
+   }
+   
+   #local-time a.map {
+        margin-left: 41.5rem ;
+        font-size: 1.6rem;
+   }
+
+   #local-time img.img-contact {
+        width: 105rem;
+   }
+
+   #local-time p.rights {
+        width: 13rem;
+        margin-left: 2rem;
+        font-size: 1.4rem;
+   }
+   
+   #local-time p.rights-reserved {
+        width: 18rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+   }
+
+   #local-time a.icon-facebook {
+        
+        margin-left: -91rem;
+        margin-top: 2rem;
+   }
+
+}
+
+/*==================RESPONSIVIDADE(1115PX)==========*/
+@media (min-width:1115px) {
+    #about h1 {
+        margin-left: -6rem;
+    }
+
+    #about p {
+        margin-left: 20rem;
+    }
+
+/*==================LOCAL-TIME==========*/
+    #local-time img.img-local-time {
+        width: 110rem;
+    }
+
+    #local-time footer p {
+        margin-left: -10rem;
+    }
+
+    #local-time img.img-contact {
+        width: 114rem;
+    }
+    
+    #local-time a.icon-facebook {
+        margin-left: -99rem;
+    }
+
+}
+
+
+
+
+/*==================RESPONSIVIDADE(1200PX)==========*/
+
+@media (min-width:1200px) {
+    #header ul.grid {
+        margin-left: 37rem;
+    }
+
+    #header li.title {
+       height: 1.9rem;
+    }
+    #header li.title-diferent {
+       height: 1.9rem;
+    }
+/*==================ABOUT==========*/
+
+    #about h3 {
+        margin-left: 55rem;
+    }
+
+    #about h1 {
+      margin-left: 7rem;
+    }
+
+    #about img.img-about {
+        margin-left: 35.3rem;
+    }
+
+    #about p {
+        margin-left: 26rem;
+    }
+/*==================LOCAL-TIME==========*/
+
+    #local-time img.img-local-time {
+        width: 120rem;
+    }
+
+    #local-time a.icons {
+        margin-left: 25rem;
+    }
+
+    #local-time h3.description {
+        margin-left: 55.2rem;
+    }
+
+    #local-time h1.description-local-time {
+        margin-left: 46rem;
+    }
+
+
+    #local-time h2.time {
+        margin-left: 68rem;
+    }
+
+    #local-time p.content-text-time {
+        margin-left: 65rem;
+    }
+
+
+    #local-time h2.adress {
+        margin-left: 50rem;
+    }
+
+    #local-time p.content-text {
+        margin-left: 48rem;
+    }
+
+
+    #local-time a.button {
+        margin-left: 55rem;
+    }
+
+
+    #local-time a.map {
+        margin-left: 54.7rem;
+    }
+
+    #local-time img.img-contact {
+        width: 123rem;
+    }
+
+    #local-time a.icon-facebook {
+        margin-left: -109rem;
+    }
+    
+    #local-time footer p {
+        margin-left: 8rem;
+    } 
+}
+
+/*==================RESPONSIVIDADE(1300PX)==========*/
+@media (min-width:1300px) {
+    #about h1 {
+        margin-left: -5rem;
+    }
+
+    #about p {
+        font-size: 1.7rem;
+    }
+
+    #header ul.grid {
+        font-size: 1.8rem;
+    }
+
+/*==================LOCAL-TIME==========*/
+    #local-time img.img-local-time {
+        width: 137rem;
+    }
+
+
+    #local-time p.content-text {
+        width: 14rem;
+        font-size: 1.6rem;
+    }
+   
+    #local-time p.content-text-time {
+        width: 19rem;
+        font-size: 1.6rem;
+    }
+
+    #local-time img.img-contact {
+        width: 137rem;
+    }
+    
+    #local-time footer p {
+        margin-left: -5rem;
+        font-size: 1.1rem;
+    }
+
+    #local-time a.icon-facebook {
+        margin-left: -118rem;
+    }
+
+}
+
+@media (min-width:1440px) {
+    
+    #header ul.grid {
+        margin-left: 45rem;
+    }
+    
+    img.img-logo {
+        margin-left: 27rem;
+        margin-top: -60rem;
+    }
+
+/*==================ABOUT==========*/
+    #about h3 {
+        margin-left: 63.7rem;
+        margin-top: -2.7rem;
+    }
+
+    #about h1 {
+        margin-left: 1rem;
+    }
+    
+    #about p {
+        margin-left: 27rem;
+    }
+    
+    #about img.img-about {
+        margin-left: 40rem;
+    }
+/*==================LOCAL-TIME==========*/
+    #local-time img.img-local-time {
+        width: 147rem;
+    }
+
+
+    #local-time a.icons {
+        margin-left: 40rem;
+        margin-top: -35rem;
+    }
+
+    #local-time h3.description {
+        margin-left: 65rem;
+    }
+
+    #local-time h1.description-local-time {
+        margin-left: 55.5rem;
+    }
+
+    #local-time h2.time {
+        margin-top: -14rem;
+        margin-left: 77rem;
+
+    }
+
+    #local-time p.content-text-time {
+        margin-left: 73rem;
+    }
+
+    #local-time h2.adress {
+        margin-left: 59rem;
+    }
+
+    #local-time p.content-text {
+        margin-left: 57rem;
+    }
+
+    #local-time a.button {
+        margin-left: 65rem;
+    }
+
+    #local-time a.map {
+        margin-left: 65rem; 
+    }
+
+    #local-time img.img-contact {
+        width: 147rem;
+    }
+
+    #local-time footer {
+        margin-top: -0.5rem;
+    }
+
+    #local-time a.icon-facebook {
+        margin-left: -133rem;
+    }
+
+    #local-time footer p {
+        margin-left: 7.5rem;
+    }
+}
