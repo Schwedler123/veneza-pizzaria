@@ -191,7 +191,9 @@ img.img-logo {
     width: 15rem;
 }
 
-
+footer {
+    margin-top: 41rem;
+}
  
 footer p {
     margin-left: 19rem;
@@ -208,7 +210,9 @@ footer p {
     }
 
    
-
+footer {
+    margin-top: 42rem;
+}
 
 }
 /*=================RESPONSIVIDADE-375PX==============================*/
@@ -291,7 +295,7 @@ footer p {
     }
     
     footer {
-        margin-top: 0rem;
+        margin-top: 50rem;
         
     }
    

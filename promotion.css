@@ -199,6 +199,7 @@ img.img-logo {
 
 #header ul.grid {
     margin-left: 9rem;
+    
 }
 
 #promotion-veneza .promotion-day {
@@ -207,6 +208,10 @@ img.img-logo {
  
 footer p {
     margin-left: 19rem;
+}
+
+footer {
+    margin-top:42.3rem;
 }
 
 }
@@ -219,12 +224,8 @@ footer p {
         gap: 2.2rem;
     }
 
-    #local-time img.img-local-time {
-        width: 37rem;
-    }
-
-    #local-time h3.description {
-        margin-left: 8rem;
+    footer {
+        margin-top: 47rem;
     }
 
 
