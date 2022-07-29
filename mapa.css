@@ -390,10 +390,12 @@ footer {
     
 
     #header ul.grid {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
-   
+   #header li.title-diferent {
+        height: 1.9rem;
+   }
 
     footer p {
         margin-left: 60rem;
