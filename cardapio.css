@@ -176,6 +176,7 @@ nav.container {
     font: 400 3.3rem 'Bebas Neue', cursive;
     text-align: center;
     margin-top: 65rem;
+    margin-bottom: 1rem;
 }
 
 #menu-cardapio table.salt {
@@ -239,6 +240,15 @@ footer {
     background-color: #2E2E2E;
     color: var(--base-color);
     height: 10rem;
+}
+
+
+p.button-context {
+    margin-bottom: 2rem;
+}
+
+footer p.space{
+    margin-top: 1rem;
 }
 
 a.icon-facebook {
