@@ -285,6 +285,10 @@ footer p {
    
 }
 
+footer p.space{
+    margin-top: 1rem;
+}
+
 a.icon-facebook {
     margin-left: -40rem ;
 }

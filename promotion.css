@@ -167,6 +167,10 @@ footer p {
     font-size: 1.3rem;
 }
   
+footer p.space{
+    margin-top: 1rem;
+}
+
  p.rights {
     margin-left: 1rem;
     margin-top: -5rem;
